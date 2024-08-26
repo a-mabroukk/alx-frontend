@@ -17,17 +17,17 @@ a {
     color: #161616;
     text-decoration: none;
 }
-a.link {
+a:link {
     color: var(--text-color);
     text-decoration: none;
 }
-a.visited {
+a:visited {
     font-style: italic;
 }
-a.hovor {
+a:hover {
     text-decoration: underline;
 }
-a.active {
+a:active {
     background-color: var(--color-light-grey);
 }
 .visually-hidden {
