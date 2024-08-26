@@ -56,13 +56,13 @@ a {
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
+.section-header {
+    text-align: var(--section-header-align);
+}
 .section-title {
     font-family: var(--font-family-title);
     font-family: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
     color: var(--section-title-color);
-}
-.section-header {
-    text-align: var(--section-header-align);
 }
