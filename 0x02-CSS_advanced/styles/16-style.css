@@ -435,6 +435,5 @@ a:active {
 }
 .container {
     width: 960px;
-    margin-left: var(--margin);
-    margin-right: var(--margin-left);
+    margin: 0 auto;
 }
