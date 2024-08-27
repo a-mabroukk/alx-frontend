@@ -421,7 +421,7 @@ a:active {
     --section-body-padding: 0 0 3rem;
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
-    --footer-padding: 0 1rem;
+    --footer-padding: 5rem 0 1rem;
 }
 .section-tagline {
     color: var(--color-primary);
@@ -429,21 +429,22 @@ a:active {
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
-.section {
+.section{
     padding: var(--section-padding);
+  
 }
-.section-header {
+  
+.section-header{
     padding: var(--section-header-padding);
-    
 }
-.section-body {
+  
+.section-body{
     padding: var(--section-body-padding);
-    
 }
-.section-footer {
+  
+.section-footer{
     text-align: var(--section-footer-align);
     padding: var(--section-footer-padding);
-    
 }
 .section-title {
     font-family: var(--font-family-title);
